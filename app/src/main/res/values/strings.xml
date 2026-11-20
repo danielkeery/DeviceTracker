@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DeviceTracker</string>
+    <string name="tracker_description">Tracks device state changes in a git repository for disaster recovery</string>
+    <string name="btn_take_snapshot">Take Snapshot Now</string>
+    <string name="btn_push_remote">Push to Remote</string>
+    <string name="btn_clone_restore">Clone &amp; Restore</string>
+    <string name="status_idle">Idle</string>
+    <string name="status_running">Running snapshot…</string>
+    <string name="status_success">Last snapshot: %1$s</string>
+    <string name="status_error">Error: %1$s</string>
+    <string name="repo_path_label">Backup Repo Path</string>
+    <string name="remote_url_label">Remote URL (optional)</string>
+    <string name="last_snapshot_label">Last Snapshot</string>
+    <string name="tracked_packages_label">Tracked Packages</string>
+    <string name="repo_size_label">Repo Size</string>
+    <string name="channel_name">Device Tracker</string>
+    <string name="channel_desc">Snapshot and backup notifications</string>
+    <string name="notification_snapshot_running">Taking device snapshot…</string>
+    <string name="notification_snapshot_done">Snapshot complete: %1$d packages, %2$s repo size</string>
+    <string name="notification_snapshot_failed">Snapshot failed: %1$s</string>
+    <string name="settings_section">Settings</string>
+    <string name="auto_snapshot_interval">Auto-snapshot interval (hours)</string>
+    <string name="track_system_apps">Track system apps</string>
+    <string name="backup_path_title">Storage path</string>
+</resources>
