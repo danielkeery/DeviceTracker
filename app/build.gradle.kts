@@ -57,4 +57,13 @@ dependencies {
     implementation(libs.jgit)
     implementation(libs.gson)
     implementation(libs.datastore.preferences)
+
+    // ---- JVM unit tests ----
+    testImplementation(libs.junit)
+
+    // ---- Instrumentation tests ----
+    androidTestImplementation(libs.junit)
+    androidTestImplementation(libs.androidx.junit)
+    androidTestImplementation(libs.espresso.core)
+    androidTestImplementation(libs.espresso.intents)
 }

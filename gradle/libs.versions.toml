@@ -39,6 +39,16 @@ appcompat = { group = "androidx.appcompat", name = "appcompat", version = "1.6.1
 # JGit (pure Java git implementation)
 jgit = { group = "org.eclipse.jgit", name = "org.eclipse.jgit", version.ref = "jgit" }
 
+# Testing
+junit = { group = "junit", name = "junit", version = "4.13.2" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version = "3.5.1" }
+espresso-intents = { group = "androidx.test.espresso", name = "espresso-intents", version = "3.5.1" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version = "1.1.5" }
+robolectric = { group = "org.robolectric", name = "robolectric", version = "4.11.1" }
+androidx-core-testing = { group = "androidx.arch.core", name = "core-testing", version = "2.2.0" }
+ test-runner = { group = "androidx.test", name = "runner", version = "1.5.2" }
+rules = { group = "androidx.test", name = "rules", version = "1.5.0" }
+
 # JSON
 gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
 
